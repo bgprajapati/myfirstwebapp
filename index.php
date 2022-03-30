@@ -45,7 +45,15 @@ echo "Connected successfully<br>";
         $sql .= "INSERT INTO Student VALUES (9, 'komal', 'abad', '55','abc@abc.com');";
         $sql .= "INSERT INTO Student VALUES (10, 'shreya', 'abad', '55','abc@abc.com');";
         $sql .= "INSERT INTO Student VALUES (11, 'mayuri', 'avasari', '55','abc@abc.com')";
+     
   
+  if ($conn->multi_query($sql) === TRUE) {
+        echo "New records inserted successfully";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+
+$conn->close();
   
   ?>
    

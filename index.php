@@ -8,7 +8,7 @@ My First App
 echo "<h1> This is my first application</h1>";
   
 ?>
-  User Name:<br>
-  Password: <br>
+  User Name:<input type=text name=uname><br>
+  Password: <input type=password name=pwd><br>
 </body>
 </html>

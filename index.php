@@ -5,7 +5,7 @@ My First App
 <body>
 <h1>My First Web Page</h1>
 <?php
-echo "<h1> This is my first app</h1>";
+echo "<h1> This is my first application</h1>";
   
 ?>
   User Name:<br>

@@ -18,7 +18,7 @@ echo "<h1> This is my first app</h1>";
   
   <form method="post" action="<?php echo $_SERVER['PHP_SELF'];?>">
   <input type="submit" Value="Connect to MySQL Server & Insert data in a table">
-
+<?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 $servername = "bgpsqlserver.mysql.database.azure.com";
 $username = "bgp";
@@ -39,8 +39,9 @@ $sql.="INSERTINTO Student VALUES (8, 'pooja', 'karad', '55');";
 $sql.="INSERTINTO Student VALUES (9, 'komal', 'abad', '55');";
 $sql.="INSERTINTO Student VALUES (10, 'shreya', 'abad', '55');";
 $sql.="INSERTINTO Student VALUES (11, 'mayuri', 'avasari', '55')";*/
+  ?>
 </form>
-<?php
+
 
 </body>
 </html>

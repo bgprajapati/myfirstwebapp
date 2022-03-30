@@ -9,6 +9,6 @@ echo "<h1> This is my first application</h1>";
   
 ?>
   User Name:<input type=text name=uname><br>
-  Password: <input type=password name=pwd><br>
+  Password : <input type=password name=pwd><br>
 </body>
 </html>

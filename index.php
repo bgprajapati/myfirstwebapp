@@ -20,7 +20,7 @@ My First App
 
 <form method="post"action="<?php echo$_SERVER['PHP_SELF'];?>">
 <input type="submit" Value="Connect to MySQL Server & Insert data in a table">
-</form>
+
 <?php
   if ($_SERVER["REQUEST_METHOD"] == "POST") 
   {
@@ -39,7 +39,7 @@ echo "Connected successfully<br>";
   
   ?>
    
-  
+  </form>
 
 
 </body>

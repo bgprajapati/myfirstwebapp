@@ -18,6 +18,5 @@ echo "<h1> This is my first app</h1>";
   
 
 
-
 </body>
 </html>

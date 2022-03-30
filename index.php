@@ -32,15 +32,10 @@ $conn = newmysqli($servername, $username, $password,$dbname);
 if ($conn->connect_error) {​
 die("Connection failed: ".$conn->connect_error);
 }
+  
+ 
+echo"Connected successfully<br>";
     ?>
-  ​
-/*echo"Connected successfully<br>";
-$sql = "INSERTINTO student VALUES (4, 'Savani', 'Shivraj', '86565');";
-$sql.="INSERTINTO Student VALUES (7, 'twinkal', 'karad', '55');";
-$sql.="INSERTINTO Student VALUES (8, 'pooja', 'karad', '55');";
-$sql.="INSERTINTO Student VALUES (9, 'komal', 'abad', '55');";
-$sql.="INSERTINTO Student VALUES (10, 'shreya', 'abad', '55');";
-$sql.="INSERTINTO Student VALUES (11, 'mayuri', 'avasari', '55')";*/
   
 </form>
 

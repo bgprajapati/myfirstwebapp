@@ -40,7 +40,7 @@ $sql.="INSERTINTO Student VALUES (8, 'pooja', 'karad', '55');";
 $sql.="INSERTINTO Student VALUES (9, 'komal', 'abad', '55');";
 $sql.="INSERTINTO Student VALUES (10, 'shreya', 'abad', '55');";
 $sql.="INSERTINTO Student VALUES (11, 'mayuri', 'avasari', '55')";
-</html>
+
 
 </body>
 </html>
